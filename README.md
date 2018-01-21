@@ -1,2 +1,2 @@
 # PAT
-Record my code in Programming Tbility Test
+Record my code in Programming Ability Test
