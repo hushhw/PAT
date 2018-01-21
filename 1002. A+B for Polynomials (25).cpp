@@ -51,7 +51,8 @@ int main() {
 	printf("%d", cnt);
 	for (int i = 1000; i >= 0; i--) {
 		if (c[i] != 0.0)
-			printf(" %d %.1f", i, c[i]);
+			printf(" %d %.1f\n", i, c[i]);
 	}
+	system("pause");
 	return 0;
 }
