@@ -22,6 +22,11 @@ Sample Output
 0 1
 */
 
+/*
+题目大意：
+	给出一棵树，问每一层各有多少个叶子结点。
+*/
+
 //dfs
 /*
 #include <cstdio>
@@ -55,7 +60,7 @@ int main(){
 			v[node].push_back(c);
 		}
 	}
-	dfs(1, 0);
+	dfs(1, 0);	//从1号结点开始dfs
 	cout<<book[0];
 	for(int i=1; i<=maxdepth; i++)
 		cout<<" "<<book[i];
@@ -77,8 +82,8 @@ int level[100], book[100], maxlevel = -1;
 vector<int> v[100];
 
 void bfs(){
-	queue<int> q;
-	q.push(1);
+	queue<int> q;	//队列
+	q.push(1);		//用来存储每个结点序号，1开始
 	level[1] = 0;
 	while(!q.empty()){
 		int index = q.front();
@@ -89,6 +94,7 @@ void bfs(){
 		for(int i=0; i<v[index].size(); i++){
 			q.push(v[index][i]);
 			level[v[index][i]] = level[index]+1;
+			cout<<"level:"<<level[v[index][i]]<<" i:"<<i<<endl;
 		}
 	}
 }
