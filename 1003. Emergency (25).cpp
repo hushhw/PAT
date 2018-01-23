@@ -50,7 +50,7 @@ n个城市m条路，每个城市有救援小组，所有的边的边权已知。
 
 
 /*
-dfs解法
+dfs解法(深搜）
 
 #include <cstdio>
 #include <iostream>
