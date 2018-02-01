@@ -64,6 +64,6 @@ int main() {
 	int m = isdigit(t[1]) ? t[1] - '0' : t[1] - 'A' + 10;
 	cout << week[t[0]-'A'];
 	printf("%02d:%02d\n", m, pos);
-	system("pause");
+	//system("pause");
 	return 0;
 }
