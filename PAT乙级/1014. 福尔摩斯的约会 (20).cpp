@@ -63,7 +63,7 @@ int main() {
 	string week[7] = {"MON ", "TUE ", "WED ", "THU ", "FRI ", "SAT ", "SUN "};
 	int m = isdigit(t[1]) ? t[1] - '0' : t[1] - 'A' + 10;
 	cout << week[t[0]-'A'];
-	printf("%2d:%2d\n", m, pos);
+	printf("%02d:%02d\n", m, pos);
 	system("pause");
 	return 0;
 }
