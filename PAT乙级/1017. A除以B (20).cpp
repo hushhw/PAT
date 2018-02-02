@@ -37,7 +37,7 @@ int main(){
 		cout<<t;
 		temp = (temp*10 + s[i] - '0')%a;
 	}
-	cout<<" "<<temp;
+	cout<<" "<<temp<<endl;
 	system("pause");
 	return 0;
 }
