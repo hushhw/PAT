@@ -56,7 +56,7 @@ int main() {
 		}
 		need = need - a[i].mount;
 	}
-	printf("%.2f",result);
+	printf("%.2f\n",result);
 	system("pause");
 	return 0;
 }
