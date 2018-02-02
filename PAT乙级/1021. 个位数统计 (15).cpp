@@ -27,8 +27,11 @@
 using namespace std;
 
 int main(){
+// 	string str;
+// 	str.resize(11);
+// 	while(scanf("%s",&str[0])!=EOF){
 	string str;
-	while(scanf("%s",&str[0])!=EOF){
+	while(cin>>str){
 		int a[10] = {0};
 		for (int i = 0; i < str.length(); i++)
 			a[str[i] - '0']++;
