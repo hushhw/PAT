@@ -38,6 +38,7 @@ Address Data Next
 #include <iostream>
 #include <cstring>
 #include <string>
+#include <algorithm>
 using namespace std;
 
 struct node{
@@ -63,10 +64,10 @@ int main(){
 
 		for (int i = 0; i < (sum - sum % k); i += k)
 			reverse(begin(l_left) + i, begin(l_left) + i + k);
-		for(int i=0; i<n-1; i++){
+		for(int i=0; i<sum-1; i++){
 			printf("%05d %d %05d\n",l_left[i], a[l_left[i]].nn, l_left[i+1]);
 		}
-		printf("%05d %d -1\n",l_left[n-1], a[l_left[n-1]].nn);
+		printf("%05d %d -1\n",l_left[sum-1], a[l_left[sum-1]].nn);
 	}
 	return 0;
 }
