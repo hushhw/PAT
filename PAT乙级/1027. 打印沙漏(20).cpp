@@ -49,14 +49,14 @@ int main(){
 		}
 		for(int i=0; i<num+1; i++){
 			for(int u=0; u<i; u++)
-				cout<<"-";
+				cout<<" ";
 			for(int j=i; j<(num*2+1)-i; j++)
 				cout<<s;
 			cout<<endl;
 		}
 		for(int i=num-1; i>=0; i--){
 			for(int u=0; u<i; u++)
-				cout<<"-";
+				cout<<" ";
 			for(int j=i; j<(num*2+1)-i; j++)
 				cout<<s;
 			cout<<endl;
