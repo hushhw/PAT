@@ -28,14 +28,14 @@ int main(){
 	string str;
 	getline(cin, str);
 	int len=str.length();
-	cout<<"len:"<<len<<endl;
+	//cout<<"len:"<<len<<endl;
 	map<char, int> s;
 	for(int i=0; i<len; i++){
 		if((str[i]>='a'&&str[i]<='z')||(str[i]>='A'&&str[i]<='Z')){
 			if(str[i]>='A'&&str[i]<='Z')
 				str[i] = str[i]+'a'-'A';
 			s[str[i]]++;
-			cout<<"s[str[i]]"<<s[str[i]]<<endl;
+			//cout<<"s[str[i]]"<<s[str[i]]<<endl;
 		} else{
 			continue;
 		}
