@@ -56,7 +56,7 @@ int main(){
 	int x,y;
 	x = func(n);
 	y = n/x;
-	cout<<"n:"<<n<<" x:"<<x<<" y:"<<y<<endl;
+	//cout<<"n:"<<n<<" x:"<<x<<" y:"<<y<<endl;
 	vector<vector<int>> num(y, vector<int>(x));
 	int k=0,l=0;
 	int level = y/2 + y%2;
