@@ -38,9 +38,9 @@ using namespace std;
 int main(){
 	int n;
 	cin>>n;
-	int *a = new int[100005];
-	int *b = new int[100005];
-	int *num = new int[100005];
+	int *a = new int[n];
+	int *b = new int[n];
+	int *num = new int[n];
 	for(int i=0; i<n; i++){
 		cin>>a[i];
 		b[i] = a[i];
@@ -50,7 +50,7 @@ int main(){
 	for(int i=0; i<n; i++){
 		if(a[i]>max)
 			max = a[i];
-		if(a[i]==max && a[i]==b[i])
+		if(a[i]==max && a[i]==b[i])//比左边都大并且在升序中正确位置，就一定是符合的
 			num[count++] = a[i];
 	}
 	cout<<count<<endl;
