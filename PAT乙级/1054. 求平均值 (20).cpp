@@ -57,14 +57,14 @@ int main()
             说明：
             sscanf与scanf类似，都是用于输入的，只是后者以屏幕(stdin)为输入源，前者以固定字符串为输入源。*/
 
-        sscanf(a, "%lf", &temp);
-        sprintf(b, "%.2lf", temp);
+        sscanf(a, "%lf", &temp);//将a以double类型写入temp
+        sprintf(b, "%.2lf", temp);//将temp以.2double写入b
         int flag = 0;
         for (int j = 0; j < strlen(a); j++) {
-			cout<<"a[j]:"<<a[j]<<endl;
-			cout<<"b[j]:"<<b[j]<<endl;
+			//cout<<"a[j]:"<<a[j]<<endl;
+			//cout<<"b[j]:"<<b[j]<<endl;
             if (a[j] != b[j]) {
-                flag = 1;
+                flag = 1;		//可以排除字符串比如aaa这种
             }
         }
         if (flag || temp < -1000 || temp > 1000) {
