@@ -1,40 +1,104 @@
 # PAT
 Record my code in Programming Ability Test
 
+https://github.com/hushhw/PAT
+
+
+
 ## PAT甲级
 
-|  ID  | Title                               |                C++                | 备注                       |
-| :--: | :---------------------------------- | :--------------------------------------: | :----------------------- |
-| 1001 | A+B Format (20)                     | [题目及代码](https://github.com/hushhw/PAT/blob/master/PAT%E7%94%B2%E7%BA%A7/1001.%20A%2BB%20Format%20(20).cpp) | 字符串处理                    |
-| 1002 | A+B for Polynomials (25)            | [题目及代码](https://github.com/hushhw/PAT/blob/master/PAT%E7%94%B2%E7%BA%A7/1002.%20A%2BB%20for%20Polynomials%20(25).cpp) | 模拟                       |
-| 1003 | Emergency (25)                      | [题目及代码](https://github.com/hushhw/PAT/blob/master/PAT%E7%94%B2%E7%BA%A7/1003.%20Emergency%20(25).cpp) | Dijkstra算法及dfs解法         |
-| 1004 | Counting Leaves (30)                | [题目及代码](https://github.com/hushhw/PAT/blob/master/PAT%E7%94%B2%E7%BA%A7/1004.%20Counting%20Leaves%20(30).cpp) | BFS，DFS，树的层序遍历           |
-| 1005 | Spell It Right (20)                 | [题目及代码](https://github.com/hushhw/PAT/blob/master/PAT%E7%94%B2%E7%BA%A7/1005.%20Spell%20It%20Right%20(20).cpp) | 字符串处理                    |
-| 1006 | Sign In and Sign Out (25)           | [题目及代码](https://github.com/hushhw/PAT/blob/master/PAT%E7%94%B2%E7%BA%A7/1006.%20Sign%20In%20and%20Sign%20Out%20(25).cpp) | 查找元素                     |
-| 1007 | Maximum Subsequence Sum(25)         | [题目及代码](https://github.com/hushhw/PAT/blob/master/PAT%E7%94%B2%E7%BA%A7/1006.%20Sign%20In%20and%20Sign%20Out%20(25).cpp) | 动态规划，最大连续子序列和            |
-| 1008 | Elevator (20)                       | [题目及代码](https://github.com/hushhw/PAT/blob/master/PAT%E7%94%B2%E7%BA%A7/1008.%20Elevator%20(20).cpp) | 数学问题                     |
-| 1009 | Product of Polynomials (25)         | [题目及代码](https://github.com/hushhw/PAT/blob/master/PAT%E7%94%B2%E7%BA%A7/1009.%20Product%20of%20Polynomials%20(25).cpp) | 模拟                       |
-| 1010 | Radix (25)                          |                                                |                           |
-| 1011 | World Cup Betting (20)              | [题目及代码](https://github.com/hushhw/PAT/blob/master/PAT%E7%94%B2%E7%BA%A7/1011.%20World%20Cup%20Betting%20(20).cpp) | 查找元素                     |
+|  ID  | Title                       | 备注               |
+| :--: | :-------------------------- | :--------------- |
+| 1001 | A+B Format (20)             | 字符串处理            |
+| 1002 | A+B for Polynomials (25)    | 模拟               |
+| 1003 | Emergency (25)              | Dijkstra算法及dfs解法 |
+| 1004 | Counting Leaves (30)        | BFS，DFS，树的层序遍历   |
+| 1005 | Spell It Right (20)         | 字符串处理            |
+| 1006 | Sign In and Sign Out (25)   | 查找元素             |
+| 1007 | Maximum Subsequence Sum(25) | 动态规划，最大连续子序列和    |
+| 1008 | Elevator (20)               | 数学问题             |
+| 1009 | Product of Polynomials (25) | 模拟               |
+| 1010 | Radix (25)                  |                  |
+| 1011 | World Cup Betting (20)      | 查找元素             |
 
 ## PAT乙级
-|  ID  | Title  |   C++  | 备注 |
-| :--: | :----- | :----: | :--- |
-| 1001 | 	害死人不偿命的(3n+1)猜想 (15) | [题目及代码](https://github.com/hushhw/PAT/blob/master/PAT%E4%B9%99%E7%BA%A7/1001.%20%E5%AE%B3%E6%AD%BB%E4%BA%BA%E4%B8%8D%E5%81%BF%E5%91%BD%E7%9A%84(3n%2B1)%E7%8C%9C%E6%83%B3%20(15).cpp) | 简单模拟 |
-| 1002 | 写出这个数 (20)  | [题目及代码](https://github.com/hushhw/PAT/blob/master/PAT%E4%B9%99%E7%BA%A7/1002.%20%E5%86%99%E5%87%BA%E8%BF%99%E4%B8%AA%E6%95%B0%20(20).cpp) | 字符串处理 |
-| 1003 | 我要通过！(20) | [题目及代码](https://github.com/hushhw/PAT/blob/master/PAT%E4%B9%99%E7%BA%A7/1003.%20%E6%88%91%E8%A6%81%E9%80%9A%E8%BF%87%EF%BC%81(20).cpp) | 简单        数学题 |
-| 1004 | 成绩排名 (20) | [题目及代码](https://github.com/hushhw/PAT/blob/master/PAT%E4%B9%99%E7%BA%A7/1004.%20%E6%88%90%E7%BB%A9%E6%8E%92%E5%90%8D%20(20).cpp) | 元素查找 |
-| 1005 | 继续(3n+1)猜想 (25)                 | [题目及代码](https://github.com/hushhw/PAT/blob/master/PAT%E4%B9%99%E7%BA%A7/1005.%20%E7%BB%A7%E7%BB%AD(3n%2B1)%E7%8C%9C%E6%83%B3%20(25).cpp) | hash |
-| 1006 | 换个格式输出整数 (15)          | [题目及代码](https://github.com/hushhw/PAT/blob/master/PAT%E4%B9%99%E7%BA%A7/1006.%20%E6%8D%A2%E4%B8%AA%E6%A0%BC%E5%BC%8F%E8%BE%93%E5%87%BA%E6%95%B4%E6%95%B0%20(15).cpp) | 字符串处理 |
-| 1007 | 素数对猜想 (20)         | [题目及代码](https://github.com/hushhw/PAT/blob/master/PAT%E4%B9%99%E7%BA%A7/1007.%20%E7%B4%A0%E6%95%B0%E5%AF%B9%E7%8C%9C%E6%83%B3%20(20).cpp) | 素数 |
-| 1008 | 数组元素循环右移问题 (20) | [题目及代码](https://github.com/hushhw/PAT/blob/master/PAT%E4%B9%99%E7%BA%A7/1008.%20%E6%95%B0%E7%BB%84%E5%85%83%E7%B4%A0%E5%BE%AA%E7%8E%AF%E5%8F%B3%E7%A7%BB%E9%97%AE%E9%A2%98%20(20).cpp) | 模拟,reverse |
-| 1009 | 说反话 (20)        | [题目及代码](https://github.com/hushhw/PAT/blob/master/PAT%E4%B9%99%E7%BA%A7/1009.%20%E8%AF%B4%E5%8F%8D%E8%AF%9D%20(20).cpp) | 字符串处理，STL |
-| 1010 | 一元多项式求导 (25)  | [题目及代码](https://github.com/hushhw/PAT/blob/master/PAT%E4%B9%99%E7%BA%A7/1010.%20%E4%B8%80%E5%85%83%E5%A4%9A%E9%A1%B9%E5%BC%8F%E6%B1%82%E5%AF%BC%20(25).cpp) |  模拟 |
-| 1011 | A+B和C (15)            | [题目及代码](https://github.com/hushhw/PAT/blob/master/PAT%E4%B9%99%E7%BA%A7/1011.%20A%2BB%E5%92%8CC%20(15).cpp) | 模拟 |
-| 1012 | 数字分类 (20)         | [题目及代码](https://github.com/hushhw/PAT/blob/master/PAT%E4%B9%99%E7%BA%A7/1012.%20%E6%95%B0%E5%AD%97%E5%88%86%E7%B1%BB%20(20).cpp) | 模拟 |
-| 1013 | 数素数 (20)         | [题目及代码](https://github.com/hushhw/PAT/blob/master/PAT%E4%B9%99%E7%BA%A7/1013.%20%E6%95%B0%E7%B4%A0%E6%95%B0%20(20).cpp) | 素数 |
-| 1014 | 福尔摩斯的约会 (20)                      | [题目及代码](https://github.com/hushhw/PAT/blob/master/PAT%E4%B9%99%E7%BA%A7/1014.%20%E7%A6%8F%E5%B0%94%E6%91%A9%E6%96%AF%E7%9A%84%E7%BA%A6%E4%BC%9A%20(20).cpp) | 字符串处理 |
-| 1015 | 德才论 (25)        | [题目及代码](https://github.com/hushhw/PAT/blob/master/PAT%E4%B9%99%E7%BA%A7/1015.%20%E5%BE%B7%E6%89%8D%E8%AE%BA%20(25).cpp) | 排序 |
-| 1016 | 部分A+B (15) | [题目及代码](https://github.com/hushhw/PAT/blob/master/PAT%E4%B9%99%E7%BA%A7/1016.%20%E9%83%A8%E5%88%86A%2BB%20(15).cpp) |  模拟 |
-| 1017 | A除以B (20)            | [题目及代码](https://github.com/hushhw/PAT/blob/master/PAT%E4%B9%99%E7%BA%A7/1017.%20A%E9%99%A4%E4%BB%A5B%20(20).cpp) | 大数模拟 |
-
+|  ID  | Title               |      备注      |
+| :--: | :------------------ | :----------: |
+| 1001 | 害死人不偿命的(3n+1)猜想(15) |      模拟      |
+| 1002 | 写出这个数 (20)          |    字符串处理     |
+| 1003 | 我要通过！(20)           |     数学题      |
+| 1004 | 成绩排名 (20)           |    Hash散列    |
+| 1006 | 换个格式输出整数 (15)       |      素数      |
+| 1008 | 数组元素循环右移问题 (20)     |      模拟      |
+| 1009 | 说反话 (20)            |    字符串处理     |
+| 1010 | 一元多项式求导 (25)        |      模拟      |
+| 1011 | A+B和C (15)          |      模拟      |
+| 1012 | 数字分类 (20)           |      模拟      |
+| 1013 | 数素数 (20)            |      素数      |
+| 1014 | 福尔摩斯的约会 (20)        |    字符串处理     |
+| 1015 | 德才论 (25)            |      排序      |
+| 1016 | 部分A+B (15)          |      模拟      |
+| 1017 | A除以B (20)           |    大整数运算     |
+| 1018 | 锤子剪刀布 (20)          |      模拟      |
+| 1019 | 数字黑洞 (20)           |     数学问题     |
+| 1020 | 月饼 (25)             |     贪心算法     |
+| 1021 | 个位数统计 (15)          |    字符串处理     |
+| 1022 | D进制的A+B (20)        |     进制转换     |
+| 1023 | 组个最小数 (20)          |     贪心算法     |
+| 1024 | 科学计数法 (20)          |    字符串处理     |
+| 1025 | 反转链表 (25)           |      链表      |
+| 1026 | 程序运行时间(15)          |      模拟      |
+| 1027 | 打印沙漏(20)            |     图形打印     |
+| 1028 | 人口普查(20)            |     查找元素     |
+| 1029 | 旧键盘(20)             |    Hash散列    |
+| 1030 | 完美数列(25)            | two pointers |
+| 1031 | 查验身份证(15)           |    字符串处理     |
+| 1032 | 挖掘机技术哪家强(20)        |     查找元素     |
+| 1033 | 旧键盘打字(20)           |    Hash散列    |
+| 1034 | 有理数四则运算(20)         |   分数的四则运算    |
+| 1035 | 插入与归并(25)           | two pointers |
+| 1036 | 跟奥巴马一起编程(15)        |     图形打印     |
+| 1037 | 在霍格沃茨找零钱（20)        |     进制转换     |
+| 1038 | 统计同成绩学生(20)         |    Hash散列    |
+| 1039 | 到底买不买 (20)          |    Hash散列    |
+| 1040 | 有几个PAT（25)          |     逻辑题      |
+| 1041 | 考试座位号(15)           |     查找元素     |
+| 1042 | 字符统计(20)            |    Hash散列    |
+| 1043 | 输出PATest(20)        |    Hash散列    |
+| 1044 | 火星数字(20)            | map映射，STL的使用 |
+| 1045 | 快速排序(25)            |     快速排序     |
+| 1046 | 划拳(15)              |      模拟      |
+| 1047 | 编程团体赛(20)           |    Hash散列    |
+| 1048 | 数字加密(20)            |    字符串处理     |
+| 1049 | 数列的片段和(20)          |     数学问题     |
+| 1050 | 螺旋矩阵(25)            |      模拟      |
+| 1051 | 复数乘法 (15)           |      模拟      |
+| 1052 | 卖个萌 (20)            |    字符串处理     |
+| 1053 | 住房空置率 (20)          |      模拟      |
+| 1054 | 求平均值 (20)           |    字符串处理     |
+| 1055 | 集体照 (25)            |      排序      |
+| 1056 | 组合数的和(15)           |     数学问题     |
+| 1057 | 数零壹(20)             |     进制转换     |
+| 1058 | 选择题(20)             |    字符串处理     |
+| 1059 | C语言竞赛(20)           |     逻辑题      |
+| 1060 | 爱丁顿数(25)            |     逻辑题      |
+| 1061 | 判断题(15)             |     逻辑题      |
+| 1062 | 最简分数(20)            |     分数化简     |
+| 1063 | 计算谱半径(20)           |     逻辑题      |
+| 1064 | 朋友数(20)             |    set的使用    |
+| 1065 | 单身狗(25)             |  逻辑题，set的使用  |
+| 1066 | 图像过滤(15)            |     逻辑题      |
+| 1067 | 试密码(20)             |     字符串      |
+| 1068 | 万绿丛中一点红(20)         |     逻辑题      |
+| 1069 | 微博转发抽奖(20)          |    map映射     |
+| 1070 | 结绳(25)              |    排序，贪心     |
+| 1071 | 小赌怡情(15)            |     简单题      |
+| 1072 | 开学寄语(20)            |     简单题      |
+| 1073 | 多选题常见计分法(20)        |     逻辑题      |
+| 1074 | 宇宙无敌加法器(20)         |     逻辑题      |
+| 1075 | 链表元素分类(25)          |      链表      |
+| 1076 | Wifi密码              |     简单题      |
+| 1077 | 互评成绩计算              |     简单题      |
+| 1078 | 字符串压缩与解压            |     逻辑题      |
+| 1079 | 延迟的回文数              |     回文数      |
+| 1080 | MOOC期终成绩            |   map映射，排序   |
